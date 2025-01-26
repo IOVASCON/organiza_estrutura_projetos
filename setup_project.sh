@@ -133,6 +133,36 @@ pipreqs ./ --force
 - Identifica as bibliotecas importadas diretamente no código.
 - Gera um requirements.txt contendo apenas essas bibliotecas e suas versões.
 
+## 7. REVENDO E RE-INSTALANDO O AMBIENTE VIRTUAL
+
+Criação de um Ambiente Virtual Novo
+
+Se problemase surgirem, recrie o ambiente virtual para garantir uma instalação limpa:
+
+Saia do ambiente virtual:
+
+   deactivate
+
+Exclua o ambiente atual:
+
+   rm -rf venv
+
+Crie um novo ambiente virtual:
+
+   python -m venv venv
+
+Ative o ambiente virtual:
+
+   source venv/Scripts/activate
+
+Instale todas as dependências novamente:
+
+   pip install tabulate fpdf
+
+OU, saso decida editar e queira aplicar o novo requirements.txt para instalar tudo de uma vez:
+
+   pip install -r requirements.txt
+
 ## 7. Git Hub
 
 Certifique-se de manter o \`.gitignore\` atualizado para evitar versionar arquivos desnecessários.
