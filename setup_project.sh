@@ -163,11 +163,11 @@ OU, saso decida editar e queira aplicar o novo requirements.txt para instalar tu
 
    pip install -r requirements.txt
 
-## 7. Git Hub
+## 8. Git Hub
 
 Certifique-se de manter o \`.gitignore\` atualizado para evitar versionar arquivos desnecessários.
 
-## 8. Resultado
+## 9. Resultado
 
 Ao executar o script, você terá:
 
