@@ -1,4 +1,21 @@
-# 🛠️ Como Usar o Script de Configuração do Projeto
+# 📝 Descrição  
+
+![Logo](logo.webp)
+
+Este projeto visa agilizar e padronizar a criação de novos projetos em Python por meio de um script Bash automatizado. Com um único comando, o script gera a estrutura essencial de diretórios e arquivos, configurando o ambiente de desenvolvimento de forma rápida e eficiente.  
+
+## 🎯 Objetivo do Projeto
+
+O objetivo principal deste projeto é **eliminar a repetição de tarefas manuais na configuração inicial de projetos Python, proporcionando uma estrutura organizada e pronta para uso, reduzindo erros e aumentando a produtividade dos desenvolvedores**.  
+
+## 🚀 Funcionalidades
+
+- **Criação Automática da Estrutura do Projeto:** Gera diretórios como `src/`, `tests/`, `docs/`, entre outros.  
+- **Configuração do Ambiente Virtual:** Inicializa um ambiente virtual para o gerenciamento de dependências.  
+- **Geração de Arquivos Essenciais:** Inclui `README.md`, `.gitignore`, `requirements.txt` e arquivos de inicialização do projeto.  
+- **Facilidade de Uso:** Executa tudo com um único comando, tornando o processo simples e eficiente.
+
+## 🛠️ Como Usar o Script de Configuração do Projeto
 
 Este projeto foi configurado usando o script **`setup_project.sh`**, que cria automaticamente:
 
