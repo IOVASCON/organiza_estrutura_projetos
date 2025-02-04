@@ -27,7 +27,7 @@ pip freeze > requirements.txt
 
 # Cria a estrutura de pastas e arquivos
 mkdir data src tests docs images
-touch README.md USAGE.md src/simulacao.py src/utils.py src/configuracoes.py main.py
+touch README.md USAGE.md src/simulacao.py src/utils.py src/configuracoes.py src/interface_grafica.py src/__init__.py main.py gerar_relatorio.py
 
 # Cria um arquivo .gitignore
 cat <<EOL > .gitignore
